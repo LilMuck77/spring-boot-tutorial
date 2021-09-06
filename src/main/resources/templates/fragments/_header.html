@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<body>
+<header th:fragment="header">
+
+    <nav>
+        <ul>
+
+            <li><a th:href="@{/}">Home</a></li>
+            <li><a th:href="@{/wood}">Wood Prep</a></li>
+            <li><a th:href="@{/stain}">Wood Stain</a></li>
+            <li><a th:href="@{/clear-coat}">Clear Coat</a></li>
+            <li><a th:href="@{/redirect-me}">Watch Video</a></li>
+            <li><a th:href="@{/forward-me}">Forward</a></li>
+        </ul>
+    </nav>
+</header>
+</body>
+</html>
